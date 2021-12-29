@@ -12,3 +12,14 @@ df -h
 
 du -h --max-depth=1
 ```
+
+
+#### 查找文件中含有的文字
+```sh
+grep -rnw '/path/to/somewhere/' -e 'pattern'
+```
+-r or -R is recursive,
+-n is line number, and
+-w stands for match the whole word.
+-l (lower-case L) can be added to just give the file name of matching files.
+-e is the pattern used during the search
