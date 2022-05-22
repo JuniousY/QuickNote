@@ -23,3 +23,15 @@ grep -rnw '/path/to/somewhere/' -e 'pattern'
 -w stands for match the whole word.
 -l (lower-case L) can be added to just give the file name of matching files.
 -e is the pattern used during the search
+
+
+#### proxy
+```sh
+export http_proxy="http://PROXY_SERVER:PORT"
+export https_proxy="https://PROXY_SERVER:PORT"
+export ftp_proxy="http://PROXY_SERVER:PORT"
+
+export http_proxy="http://USER:PASSWORD@PROXY_SERVER:PORT"
+export https_proxy="https://USER:PASSWORD@PROXY_SERVER:PORT"
+export ftp_proxy="http://USER:PASSWORD@PROXY_SERVER:PORT"
+```
