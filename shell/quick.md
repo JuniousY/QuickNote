@@ -35,3 +35,11 @@ export http_proxy="http://USER:PASSWORD@PROXY_SERVER:PORT"
 export https_proxy="https://USER:PASSWORD@PROXY_SERVER:PORT"
 export ftp_proxy="http://USER:PASSWORD@PROXY_SERVER:PORT"
 ```
+
+
+#### .gz
+```sh
+# 解压缩
+# -d 解压 -k 保留源文件
+gzip -dk filename.gz
+```
