@@ -43,3 +43,11 @@ export ftp_proxy="http://USER:PASSWORD@PROXY_SERVER:PORT"
 # -d 解压 -k 保留源文件
 gzip -dk filename.gz
 ```
+
+
+#### git
+clone 子库
+```sh
+git submodule update
+git submodule init 
+```
